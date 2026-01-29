@@ -1,11 +1,11 @@
-# Project Title  
+# Technical session - Knowledge distillation for human pose estimation
 
 ## Description  
-Provide a brief but informative description of your project.  
+This repo contains code and material used in technical session.  
 
-Example:  
-This repository contains code for analyzing data related to bird species monitoring in the Mt. Kenya ecosystem. The analysis supports findings presented in the paper:  
-*"Comparing point counts, passive acoustic monitoring, citizen science, and machine learning for bird species monitoring in the Mt. Kenya ecosystem,"* submitted to *Philosophical Transactions of the Royal Society B*.  
+Open Notebook
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mwangi-clinton/2d-human-pose-estimation-using-kd/blob/main/knowledge-distillation-hpe.ipynb)
+
 
 ## Requirements  
 List dependencies or link to a `requirements.txt` file.  
