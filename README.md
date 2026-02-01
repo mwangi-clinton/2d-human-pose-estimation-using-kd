@@ -8,7 +8,6 @@ This repository contains a **technical session** on applying **Knowledge Distill
 
 - **Baseline Training**: Train a lightweight student model from scratch
 - **Logits-based KD**: Distill knowledge from teacher's output heatmaps using spatial softmax and temperature scaling
-- **Feature-based KD**: Align intermediate layer representations using PyTorch hooks and feature adapters
 - **Evaluation**: Assess models using PCK metrics and visualize predictions with FiftyOne
 
 ---
@@ -28,11 +27,18 @@ This repository contains a **technical session** on applying **Knowledge Distill
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/mwangi-clinton/2d-human-pose-estimation-using-kd.git
-cd 2d-human-pose-estimation-using-kd
+git clone https://github.com/mwangi-clinton/2026-02-02-knowledge-distillation-for-2d-hpe.git
+cd 2026-02-02-knowledge-distillation-for-2d-hpe
 ```
 
-### Step 2: Install Dependencies
+### Step 2: Create Virtual Environment
+It is recommended to create a virtual environment to isolate dependencies:
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### Step 3: Install Dependencies
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install opencv-python numpy tqdm matplotlib
@@ -45,7 +51,7 @@ Or use the requirements file:
 pip install -r requirements.txt
 ```
 
-### Step 3: Download COCO Dataset
+### Step 4: Download COCO Dataset
 The notebook includes automated download scripts, but you can manually download:
 ```bash
 mkdir -p data/coco
@@ -66,14 +72,6 @@ unzip train2017.zip
 
 1. **Launch Jupyter**:
    ```bash
-   jupyter notebook knowledge-distillation-hpe.ipynb
+   jupyter notebook knowledge-distillation-for-2d-hpe.ipynb
    ```
-
-2. **Execute Cells Sequentially**:
-   - **Section 1**: Dataset loading and preprocessing
-   - **Section 2**: Model definitions (HRNet, SqueezeNet)
-   - **Section 3**: Baseline student training
-   - **Section 4**: Logits-based KD training
-   - **Section 5**: Feature-based KD training
-   - **Section 6**: Evaluation and comparison
 
