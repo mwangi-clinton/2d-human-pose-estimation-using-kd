@@ -15,7 +15,7 @@ This repository contains a **technical session** on applying **Knowledge Distill
 ## Quick Start
 
 ### Open in Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mwangi-clinton/2d-human-pose-estimation-using-kd/blob/main/kd-hpe.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mwangi-clinton/2026-02-02-knowledge-distillation-for-2d-hpe/blob/main/knowledge-distillation-for-2d-hpe.ipynb)
 
 ---
 
