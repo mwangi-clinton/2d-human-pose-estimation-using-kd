@@ -1,0 +1,6 @@
+fiftyone
+calflops
+heatmaps-to-keypoints
+fiftyone-brain
+fiftyone-db
+voxel51-eta
