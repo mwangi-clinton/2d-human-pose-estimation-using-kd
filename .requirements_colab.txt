@@ -1,3 +1,4 @@
+pillow<11.0.0
 fiftyone
 calflops
 heatmaps-to-keypoints
