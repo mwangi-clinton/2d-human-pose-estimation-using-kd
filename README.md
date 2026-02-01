@@ -1,30 +1,19 @@
 # Knowledge Distillation for 2D Human Pose Estimation
 
-## 📋 Overview
+##  Overview
 
-This repository contains a comprehensive **technical session** on applying **Knowledge Distillation (KD)** techniques to 2D Human Pose Estimation. The session demonstrates how to transfer knowledge from a large, accurate Teacher model (HRNet) to a lightweight Student model (SqueezeNet) for efficient deployment.
+This repository contains a **technical session** on applying **Knowledge Distillation (KD)** techniques to 2D Human Pose Estimation. The session demonstrates how to transfer knowledge from a large, accurate Teacher model (HRNet) to a lightweight Student model (SqueezeNet) for efficient deployment.
 
-### What You'll Learn
+### Topics covered
 
 - **Baseline Training**: Train a lightweight student model from scratch
 - **Logits-based KD**: Distill knowledge from teacher's output heatmaps using spatial softmax and temperature scaling
 - **Feature-based KD**: Align intermediate layer representations using PyTorch hooks and feature adapters
 - **Evaluation**: Assess models using PCK metrics and visualize predictions with FiftyOne
 
-### Key Techniques Covered
-
-1. **Data Preprocessing**: COCO dataset handling, cropping, coordinate transformation, and heatmap generation
-2. **Model Architectures**: HRNet (Teacher) and SqueezeNet (Student) for pose estimation
-3. **Knowledge Distillation**: 
-   - Spatial KL Divergence with Temperature (T=4.0)
-   - MSE-based feature matching
-   - PyTorch forward hooks for intermediate feature extraction
-4. **Modern Training**: AdamW optimizer, Mixed Precision (AMP), Cosine Annealing with Warmup
-5. **Complexity Analysis**: FLOPs/MACs calculation using `calflops`
-
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Open in Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mwangi-clinton/2d-human-pose-estimation-using-kd/blob/main/knowledge-distillation-hpe.ipynb)
@@ -35,7 +24,6 @@ This repository contains a comprehensive **technical session** on applying **Kno
 
 ### Prerequisites
 - Python 3.8+
-- CUDA-capable GPU (recommended)
 - 20GB+ disk space for COCO dataset
 
 ### Step 1: Clone the Repository
