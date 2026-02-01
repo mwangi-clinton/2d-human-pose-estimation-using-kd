@@ -78,9 +78,3 @@ unzip train2017.zip
    - **Section 6**: Evaluation and comparison
 
 
-
-## Contact
-
-For questions or collaboration opportunities:
-- GitHub: [@mwangi-clinton](https://github.com/mwangi-clinton)
-- Email: your-email@example.com
