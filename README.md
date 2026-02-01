@@ -16,7 +16,7 @@ This repository contains a **technical session** on applying **Knowledge Distill
 ## Quick Start
 
 ### Open in Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mwangi-clinton/2d-human-pose-estimation-using-kd/blob/main/knowledge-distillation-hpe.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mwangi-clinton/2d-human-pose-estimation-using-kd/blob/main/kd-hpe.ipynb)
 
 ---
 
@@ -76,5 +76,4 @@ unzip train2017.zip
    - **Section 4**: Logits-based KD training
    - **Section 5**: Feature-based KD training
    - **Section 6**: Evaluation and comparison
-
 
